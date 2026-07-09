@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la .vscode)",
+      "Bash(find . -iname \"*.cursorrules\" -o -iname \"CLAUDE.md\")",
+      "Bash(find . -path ./.git -prune -o -iname \"copilot-instructions.md\" -print)"
+    ]
+  }
+}
